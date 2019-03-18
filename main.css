@@ -1,0 +1,71 @@
+body{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
+  grid-template-areas: "header"
+                       "menu"
+                       "content"
+                       "AD"
+                       "footer";
+  font-size: 5vw;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+  grid-area: header;
+  border: 1px solid black;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  grid-area: menu;
+  border: 1px solid black;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  grid-area: content;
+  border: 1px solid black;
+}
+.AD{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  grid-area: AD;
+  border: 1px solid black;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+  grid-area: footer;
+  border: 1px solid black;
+}
+@media (min-width:768px){
+  body{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15vh 50vh 20vh 15vh;
+    grid-template-areas: "header header header header"
+                         "menu content content content"
+                         "AD       AD      AD      AD"
+                         "footer footer footer footer";
+  }
+}
+@media (min-width:1050px){
+  body{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas: "header header header header"
+                         "menu  content  content  AD"
+                         "footer footer footer footer";
+  }
+}

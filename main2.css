@@ -1,0 +1,35 @@
+#head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+#menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+#content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  border: 1px solid black;
+}
+#AD{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+#foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
